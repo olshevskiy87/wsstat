@@ -7,8 +7,8 @@ import wsstat
 
 py_version = sys.version_info[:2]
 
-if py_version < (3, 3):
-    raise Exception("websockets requires Python >= 3.3.")
+if py_version < (3, 4):
+    raise Exception("websockets requires Python >= 3.4.")
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -62,8 +62,8 @@ setup(
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: POSIX",
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     extras_require={
         'testing': ['pytest'],

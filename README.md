@@ -18,7 +18,7 @@
 
 #### Hello!
 
-This repository holds WSStat, a websocket monitoring and visualization tool written in Python 3.3+, using the great AsyncIO, Websocket, and Urwid libraries 😎 .
+This repository holds WSStat, a websocket monitoring and visualization tool written in Python 3.4+, using the great AsyncIO, Websocket, and Urwid libraries 😎 .
 
 It aims to make diagnosing problems and understanding your websocket infrastructure easy and beautiful.
 
@@ -43,7 +43,7 @@ Install from pip - `pip install wsstat`
 
 The installation should be 100% straight forward and work fine. If that's not the case, please file a ticket!
 
-Please note: WSStat currently only works on Python >= 3.3, and won't install on python 2.7, which is a known limitation.
+Please note: WSStat currently only works on Python >= 3.4, and won't install on python 2.7, which is a known limitation.
 
 #### Usage
 
